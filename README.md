@@ -6,7 +6,7 @@ The project involves setting up an Apache Airflow environment, which is a powerf
 
 The pipeline retrieves Twitter data using the Twitter API, leveraging the Tweepy library for easy integration. The data extraction process include various parameters such as hashtags, user profiles, likes, dislikes, re-tweets allowing us to fetch relevant tweets based on our requirements.
 
-Once the data is collected, it undergoes preprocessing and transformation steps to clean and structure it for further analysis. This involves removing duplicates, handling missing values, normalizing text, extracting specific features of interest. After preprocessing, the data is stored in S3 buckets.
+Once the data is collected, it undergoes preprocessing and transformation steps to clean and structure it for further analysis. This involves removing duplicates, handling missing values, normalizing text, extracting specific features of interest. After preprocessing, the data is stored in S3 buckets on an EC2 instance.
 
 The entire pipeline is orchestrated and managed using Apache Airflow, which provides a visual interface for defining workflows, scheduling tasks, and monitoring the execution of the pipeline. Airflow's robustness and scalability ensure the pipeline can handle large volumes of data and adapt to changing requirements.
 
@@ -25,8 +25,6 @@ The project showcases the capabilities of Apache Airflow in building reliable an
 ## Airflow:
 
 ![Screenshot (105)](https://github.com/NiteshChintawar/Twitter-Data-Pipeline-using-Airflow/assets/61157441/0ff9370d-af78-4cf9-9ba9-f3840c189908)
-
-![Screenshot (104)](https://github.com/NiteshChintawar/Twitter-Data-Pipeline-using-Airflow/assets/61157441/d3880a1e-dcb0-4935-abe7-9db82893f213)
 
 ## Result:
 
