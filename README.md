@@ -1,5 +1,6 @@
 # Twitter-Data-Pipeline-using-Airflow
-Overview: The project "Twitter Data Pipeline using Airflow" is aimed at building a robust and scalable data pipeline that retrieves and processes Twitter data using Apache Airflow. Twitter is a popular social media platform with a wealth of real-time data that can be leveraged for various analytical and business purposes.
+## Overview: 
+The project "Twitter Data Pipeline using Airflow" is aimed at building a robust and scalable data pipeline that retrieves and processes Twitter data using Apache Airflow. Twitter is a popular social media platform with a wealth of real-time data that can be leveraged for various analytical and business purposes.
 
 The project involves setting up an Apache Airflow environment, which is a powerful open-source platform for orchestrating and managing workflows. Airflow allows us to define and schedule tasks, create dependencies, and monitor the execution of the data pipeline.
 
